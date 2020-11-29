@@ -1,12 +1,17 @@
 import React from 'react';
 import { Component } from 'react';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.scss';
+import MainButton from './elements/button.element';
 
 class App extends Component {
   state = {  }
   render() { 
     return ( 
-      <h1>It still works!</h1>
+      <div>
+        <MainButton />
+        <MainButton />
+      </div>
      );
   }
 }
