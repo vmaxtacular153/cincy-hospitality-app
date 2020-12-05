@@ -4,9 +4,12 @@
 
 html,
 body {
-    font-family: 'Lato', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
