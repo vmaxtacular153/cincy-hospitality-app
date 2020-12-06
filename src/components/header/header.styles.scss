@@ -1,0 +1,61 @@
+// .jumbotron-container {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     min-height: 50vh;
+// }
+
+// .header-container {
+//     width: 100vw;
+//     height: 400px;
+//     background-image: url('../../assets/img/cincy-skyline.jpg');
+//     filter: brightness(80%);
+//     background-size: cover;
+//     background-position: center center;
+//     z-index: -1;
+// }
+
+.jumbotron-container {
+    min-height: 50vh;
+    background-image: url('../../assets/img/cincy-skyline.jpg');
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+
+
+    .jumbotron-container:after {
+        background-color: rgba(0, 0, 0, 0.5);
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+
+    }
+}
+
+.header-title {
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 1.5em;
+    text-transform: uppercase;
+}
+
+.header-tagline {   
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 30px;
+}

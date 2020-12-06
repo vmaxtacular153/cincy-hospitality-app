@@ -52,7 +52,7 @@ function IndexNavbar() {
         >
             <Container>
                 <div className='navbar-translate'>
-                    <Navbar.Brand
+                    {/* <Navbar.Brand
                         data-placement='bottom'
                         to='/index'
                         target='blank'
@@ -60,7 +60,7 @@ function IndexNavbar() {
                         tag={Link}
                     >
                         Cincy Hospitality
-                    </Navbar.Brand >
+                    </Navbar.Brand > */}
                     <button
                         aria-expanded={navbarCollapse}
                         className={classnames('navbar-toggler navbar-toggler navbar-brand', {

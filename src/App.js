@@ -3,6 +3,7 @@ import { Component } from 'react';
 import './App.scss';
 import MainButton from './elements/buttons/button.element';
 import IndexNavbar from './components/navbar/navbar.component';
+import Header from './components/header/header.component';
 
 class App extends Component {
   state = {  }
@@ -10,10 +11,7 @@ class App extends Component {
     return ( 
       <div>
         <IndexNavbar />
-        <br />
-        <h1>Heading Font</h1>
-        <h3>Another Heading</h3>
-        <p>paragraph font</p>
+        <Header />
         <MainButton />
       </div>
      );

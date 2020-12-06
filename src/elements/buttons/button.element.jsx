@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 
 const MainButton = () => {
     return (
-        <Button varient='secondary' className='main-button'>Click Me</Button>
+        <Button varient='secondary' className='main-button'>Search</Button>
     )
 }
 

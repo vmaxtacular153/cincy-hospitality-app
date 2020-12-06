@@ -14,13 +14,13 @@
     border-bottom: none;
 }
 
-.navbar .navbar-brand {
-    font-weight: 400;
-    margin: 5px 5px 20px 5px;
-    padding: 0px 15px 30px 15px;
-    font-size: 25px;
-    text-transform: uppercase;
-}
+// .navbar .navbar-brand {
+//     font-weight: 400;
+//     margin: 5px 5px 20px 5px;
+//     padding: 0px 15px 30px 15px;
+//     font-size: 25px;
+//     text-transform: uppercase;
+// }
 
 .navbar .navbar-toggler:focus {
     outline: none;
@@ -32,11 +32,11 @@
 
 .navbar .navbar-nav .nav-item .nav-link {
     line-height: 1.7em;
-    font-weight: 200;
-    margin: 15px 3px;
+    font-weight: 800;
+    margin: 30px 0px;
     padding: 15px 10px;
     font-size: 1em;
-    color: #66615B;
+    color: white;
     text-transform: uppercase;
 }
 
