@@ -4,6 +4,7 @@ import './App.scss';
 import IndexNavbar from './components/navbar/navbar.component';
 import Header from './components/header/header.component';
 import SearchBar from './components/search-bar/search-bar.component';
+import CardContainer from './containers/card-container';
 
 class App extends Component {
   state = {  }
@@ -13,6 +14,7 @@ class App extends Component {
         <IndexNavbar />
         <Header />
         <SearchBar />
+        <CardContainer />
       </div>
      );
   }
